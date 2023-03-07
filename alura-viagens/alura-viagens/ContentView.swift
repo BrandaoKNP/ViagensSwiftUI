@@ -11,7 +11,9 @@ struct ContentView: View {
     @Binding var document: alura_viagensDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        VStack {
+                Text("Teste")
+        }
     }
 }
 

@@ -17,7 +17,7 @@ extension UTType {
 struct alura_viagensDocument: FileDocument {
     var text: String
 
-    init(text: String = "Hello, world!") {
+    init(text: String = "Teste!") {
         self.text = text
     }
 
